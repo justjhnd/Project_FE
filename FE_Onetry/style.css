@@ -37,14 +37,43 @@ body {
 }
 
 .nav-btn:hover {
-  color: #fff;
+  color: #914747;
 }
 
 .nav-btn.active {
   color: #00bfff;
   border-bottom: 2px solid #00bfff;
 }
+.card-container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 20px;
+ flex-wrap: wrap;
+ padding-top: 30px;
+}
 
+.card{
+  background: rgb(45, 88, 145);
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.5 ease, box-shadow 0.3 ease;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card:hover{
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 main {
   padding: 50px 0;
 }
