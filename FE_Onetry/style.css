@@ -1,5 +1,5 @@
 body {
-  background-color: #3056ad;
+  background-color: #3a65cb;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -8,7 +8,7 @@ body {
 .navbar {
   display: flex;
   justify-content:space-between;
-  background-color: #1e1e1e;
+  background-color: #1a2a84;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -25,7 +25,7 @@ body {
 .nav-btn {
   background: none;
   border: none;
-  color: #bbb;
+  color: #224bc8;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -51,6 +51,7 @@ body {
  gap: 20px;
  flex-wrap: wrap;
  padding-top: 30px;
+ margin-top: 40px ;
 }
 
 .card{
@@ -68,6 +69,7 @@ body {
   height: 80px;
   border-radius: 50%;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 
 .card:hover{

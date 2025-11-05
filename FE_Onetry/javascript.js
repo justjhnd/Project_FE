@@ -14,17 +14,17 @@ buttons.forEach(btn => {
 
     })
 })
-document.addEventListener("DOMContentLoaded", ()=>{
-    const cards =document.querySelectorAll(".card");
+document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".card");
 
-    cards.forEach((card, index) =>{
-        card.computedStyleMap.opacity = 0;
-        card.computedStyleMap.transform = "transtalteY(50px)";
+    cards.forEach((card, index) => {
+        card.style.opacity = 0;
+        card.style.transform = "translateY(50px)";
 
         setTimeout(() => {
             card.style.transition = "all 0.6s ease";
             card.style.opacity = 1;
-            card.style.transform = "translateY(0)"; 
-        }, index*300);
+            card.style.transform = "translateY(0)";
+        }, index * 300);
     });
 });
